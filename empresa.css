@@ -1,0 +1,52 @@
+#titulo{
+    position: relative;
+    color: orange;
+    top: 30px;
+    font-size: 20pt;
+    box-shadow: 2px 3px 5px rgba(128, 128, 128,.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#texto{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    color: orange;
+    text-align: justify;
+    text-indent: 20px;
+    border: 2px solid gray;
+    font-size: 13pt;
+    font-family: cursive;
+    padding: 10px;
+}
+
+/*footer*/ 
+
+#baixo{
+    position: absolute;    
+    color: orange;
+    border-top: 1px solid gray;
+    margin-top: 550px;
+    width: 100%;
+    text-align: justify;
+}
+
+#p{
+    position: relative;
+    font-size: 13pt;
+    top: 25px;
+    left: 10px;
+}
+#pp{
+    position: relative;    
+    left: 400px;
+    font-size: 13pt;
+}
+#dev{
+    position: relative;
+    left: 670px;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+#baixo p{
+    display: inline;
+}

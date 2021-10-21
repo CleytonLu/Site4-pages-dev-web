@@ -1,0 +1,109 @@
+/* PRIMEIRA PARTE */
+#titulo{
+    position: relative;
+    color: orange;
+    top: 30px;
+    font-size: 20pt;
+    box-shadow: 2px 3px 5px rgba(128, 128, 128,.9);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#modelo1{
+    position: absolute;
+    color: orange;
+    padding: 3px 5px 3px 5px;
+    box-shadow: 1px 2px 3px rgba(128, 128, 128,.9);
+    left: 20px;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid gray; 
+    top: 110px;
+}
+#img1{
+    position: absolute;
+    top: 200px;
+    width: 250px;
+    border: 5px solid orange;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+.tipo-de-modelo1 p{
+    position: absolute;
+    padding: 10px;
+    color: orange;
+    text-indent: 10px;
+    text-align: left;
+    top: 540px;
+    border: 2px solid gray;
+    font-size: 15pt;
+    left: 80px;
+}
+
+/* SEGUNDA PARTE */
+
+#modelo2{
+    position: absolute;
+    color: orange;
+    padding: 3px 5px 3px 5px;
+    box-shadow: 1px 2px 3px rgba(128, 128, 128,.9);
+    top: 770px;
+    left: 20px;
+    font-size: 15pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 3px solid gray; 
+}
+
+#img2{
+    position: absolute;
+    top: 880px;
+    width: 250px;
+    border: 5px solid orange;
+    margin-left: 400px;
+    box-sizing: border-box;
+}
+
+.tipo-de-modelo2 p{
+    position: absolute;
+    padding: 10px;
+    color: orange;
+    text-indent: 10px;
+    text-align: left;
+    font-size: 15pt;
+    left: 80px;
+    top: 1150px;
+    border: 2px solid gray;
+}
+
+/*footer*/ 
+
+#area_baixo{
+    position: relative;    
+    color: orange;
+    border-top: 1px solid gray;
+    height: 120px;
+    width: 100%;
+    top: 680px;
+    margin-top: 630px;
+}
+
+#pp1{
+    position: relative;
+    font-size: 13pt;
+    top: 25px;
+    left: 10px;
+    
+}
+#pp2{
+    position: relative;    
+    left: 400px;
+    top: 0px;
+    font-size: 13pt;
+}
+#dev{
+    position: relative;
+    left: 670px;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+#area-baixo p{
+    display: inline;
+}

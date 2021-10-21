@@ -1,0 +1,72 @@
+header{
+    color: orange;
+    text-align: center;
+}
+fieldset{
+    position: relative;
+    top: 50px;
+    margin-left: 330px;
+    margin-right: 700px;
+    width: 500px;  
+    font-size: 19pt;  
+    background: rgba(128, 128, 128, 0.425);
+    box-shadow: 1px 2px 5px white;
+}
+textarea{
+    font-weight: bold;
+    font-size: 10pt;
+    font-family: cursive;
+}
+
+#nome{
+    font-size: 15pt;
+}
+#tel{
+    font-size: 15pt;
+}
+#email{
+    font-size: 15pt;
+}
+
+/* VALIDAÇÃO */
+input:invalid, textarea:invalid{
+    border-color: red;
+}
+input:valid{
+    border-color: rgb(40, 228, 40);
+}
+input:focus{
+    border-color: orange;
+}
+
+/*footer*/ 
+
+#abaixo{
+    position: relative;    
+    color: orange;
+    border-top: 1px solid gray;
+    height: 120px;
+    width: 100%;
+    top: 100px;
+}
+
+#pp{
+    position: relative;
+    font-size: 13pt;
+    top: 25px;
+    left: 10px;
+}
+#ppp{
+    position: relative;    
+    left: 400px;
+    font-size: 13pt;
+}
+#dev{
+    position: relative;
+    left: 670px;
+    font-weight: bolder;
+    font-size: 13pt;
+}
+#abaixo p{
+    display: inline;
+}
